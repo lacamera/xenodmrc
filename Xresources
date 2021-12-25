@@ -1,0 +1,17 @@
+xlogin*echoPasswd:      	true
+xlogin*fail:             	authentication failed
+xlogin*greeting:	       	OpenBSD xenodm
+xlogin*namePrompt:       	\040\040user:
+xlogin*passwdPrompt:     	passwd:
+
+xlogin*background:       	black
+xlogin*foreground:       	#eeeeee
+xlogin*failColor:        	red
+xlogin*inpColor:         	black
+xlogin*promptColor:      	#eeeeec
+xlogin*greetColor: 		white
+
+xlogin*face:             	monospace-16
+xlogin*failFace:         	monospace-16
+xlogin*promptFace:       	monospace-16
+xlogin*greetFace:       	monospace-16
