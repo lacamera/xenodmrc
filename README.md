@@ -11,5 +11,8 @@ $ doas -s
 # chmod 444 Xresources
 # chmod 755 Xsetup_0
 ```
+### Screenshots
+![](screen0.png)
+![](screen1.png)
 ### License
 This project is licensed under the BSD 2-Clause License - see the LICENSE file for details
