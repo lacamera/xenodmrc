@@ -1,5 +1,5 @@
 ## xenodmrc
-a simple and functional OpenBSD xenodm config
+ a minimal OpenBSD xenodm config 
 ### Example installation
 ```
 $ doas -s
