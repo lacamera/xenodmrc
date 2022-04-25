@@ -9,9 +9,5 @@ a minimal OpenBSD xenodm config
 # install -m 755 Xsetup_0 /etc/X11/xenodm/Xsetup_0
 ```
 
-### Screenshots
-![](img/sc0.png)
-![](img/sc1.png)
-
 ### License
 This project is licensed under the BSD 2-Clause License - see the LICENSE file for details
