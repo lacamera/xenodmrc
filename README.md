@@ -1,18 +1,17 @@
 ## xenodmrc
- a minimal OpenBSD xenodm config 
-### Example installation
+a minimal OpenBSD xenodm config 
+
+### Setup 
 ```
-$ doas -s
-# cd /etc/X11/xenodm
-# mv Xresources Xresources.bak
-# mv Xsetup_0 Xsetup_0.bak
-# ftp -o Xresources https://raw.githubusercontent.com/lacamera/xenodmrc/master/Xresources  
-# ftp -o Xsetup_0 https://raw.githubusercontent.com/lacamera/xenodmrc/master/Xsetup_0 
-# chmod 444 Xresources
-# chmod 755 Xsetup_0
+# mv /etc/X11/xenodm /etc/X11/xenodm.bak
+# mkdir -p /etc/X11/xenodm
+# install -m 444 Xresources /etc/X11/xenodm/Xresources
+# install -m 755 Xsetup_0 /etc/X11/xenodm/Xsetup_0
 ```
+
 ### Screenshots
-![](screen0.png)
-![](screen1.png)
+![](img/sc0.png)
+![](img/sc1.png)
+
 ### License
 This project is licensed under the BSD 2-Clause License - see the LICENSE file for details
